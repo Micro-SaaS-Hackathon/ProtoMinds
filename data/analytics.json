@@ -1,0 +1,103 @@
+{
+  "overallStats": {
+    "totalTests": 248,
+    "totalStudents": 124,
+    "avgScore": 76.5,
+    "passRate": 82,
+    "testGrowth": 12.5,
+    "scoreGrowth": 8.3,
+    "studentGrowth": 5,
+    "passRateGrowth": 3.2
+  },
+  "classPerformance": [
+    {
+      "class": "10-A",
+      "students": 30,
+      "avgScore": 82,
+      "passRate": 90,
+      "totalTests": 45,
+      "completedTests": 42,
+      "trend": "up",
+      "change": 5.2,
+      "topSubject": "Riyaziyyat",
+      "weakSubject": "Fizika",
+      "attendance": 95
+    },
+    {
+      "class": "10-B",
+      "students": 28,
+      "avgScore": 78,
+      "passRate": 85,
+      "totalTests": 45,
+      "completedTests": 40,
+      "trend": "up",
+      "change": 3.1,
+      "topSubject": "İngilis Dili",
+      "weakSubject": "Kimya",
+      "attendance": 92
+    },
+    {
+      "class": "11-A",
+      "students": 32,
+      "avgScore": 75,
+      "passRate": 80,
+      "totalTests": 50,
+      "completedTests": 48,
+      "trend": "stable",
+      "change": 0.5,
+      "topSubject": "Tarix",
+      "weakSubject": "Riyaziyyat",
+      "attendance": 88
+    },
+    {
+      "class": "11-B",
+      "students": 29,
+      "avgScore": 71,
+      "passRate": 75,
+      "totalTests": 50,
+      "completedTests": 45,
+      "trend": "down",
+      "change": -2.3,
+      "topSubject": "Ədəbiyyat",
+      "weakSubject": "Fizika",
+      "attendance": 85
+    },
+    {
+      "class": "12-A",
+      "students": 26,
+      "avgScore": 88,
+      "passRate": 95,
+      "totalTests": 55,
+      "completedTests": 55,
+      "trend": "up",
+      "change": 7.8,
+      "topSubject": "Riyaziyyat",
+      "weakSubject": "Coğrafiya",
+      "attendance": 98
+    }
+  ],
+  "subjectPerformance": [
+    { "subject": "Riyaziyyat", "avgScore": 78, "tests": 45, "passRate": 82 },
+    { "subject": "Fizika", "avgScore": 72, "tests": 38, "passRate": 75 },
+    { "subject": "Kimya", "avgScore": 75, "tests": 35, "passRate": 78 },
+    { "subject": "İngilis Dili", "avgScore": 85, "tests": 42, "passRate": 90 },
+    { "subject": "Tarix", "avgScore": 80, "tests": 30, "passRate": 85 },
+    { "subject": "Ədəbiyyat", "avgScore": 83, "tests": 28, "passRate": 88 },
+    { "subject": "Coğrafiya", "avgScore": 77, "tests": 25, "passRate": 80 },
+    { "subject": "Biologiya", "avgScore": 79, "tests": 32, "passRate": 83 }
+  ],
+  "monthlyTrend": [
+    { "month": "Sentyabr", "avgScore": 68, "tests": 35, "students": 110 },
+    { "month": "Oktyabr", "avgScore": 70, "tests": 42, "students": 115 },
+    { "month": "Noyabr", "avgScore": 72, "tests": 48, "students": 118 },
+    { "month": "Dekabr", "avgScore": 74, "tests": 45, "students": 120 },
+    { "month": "Yanvar", "avgScore": 76.5, "tests": 52, "students": 124 }
+  ],
+  "topStudents": [
+    { "name": "Leyla Əliyeva", "class": "10-B", "avgScore": 96, "tests": 15, "rank": 1 },
+    { "name": "Elvin Hüseynov", "class": "11-A", "avgScore": 94, "tests": 18, "rank": 2 },
+    { "name": "Aysel Quliyeva", "class": "10-A", "avgScore": 92, "tests": 16, "rank": 3 },
+    { "name": "Murad Məmmədov", "class": "12-A", "avgScore": 91, "tests": 20, "rank": 4 },
+    { "name": "Günel Həsənova", "class": "11-B", "avgScore": 90, "tests": 17, "rank": 5 }
+  ]
+}
