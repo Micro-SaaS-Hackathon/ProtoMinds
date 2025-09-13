@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Upload, CheckCircle, XCircle, Clock, Download, Users, FileText } from 'lucide-react';
+import { Upload, CheckCircle, XCircle, Clock, Download, Users, FileText, Home } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 // File upload + fake analysis page
 export default function UploadFile() {
@@ -134,6 +135,14 @@ export default function UploadFile() {
   return (
     <div className="p-6">
       <div className="max-w-4xl mx-auto">
+        {/* <-- Back button added here (top-right) --> */}
+        <div className="flex justify-end mb-4">
+          <Link to="/dashboard" className="inline-flex items-center px-3 py-1.5 bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-md text-sm shadow-sm hover:shadow-md transition-all">
+            <Home className="w-4 h-4 mr-2 text-gray-700 dark:text-gray-200" />
+           <span className='text-white'> Dashboard </span>  
+          </Link>
+        </div>
+
         <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-6 mb-6">
           <div className="flex items-center justify-between mb-4">
             <div>
