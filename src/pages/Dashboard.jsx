@@ -164,9 +164,9 @@ const DashboardLayout = () => {
 
   // Demo user data
   const user = {
-    name: "Aysel Məmmədova",
-    email: "aysel@example.com",
-    role: "teacher",
+    name: "Novruzzade Tunar",
+    email: "tunar@example.com",
+    role: "Developer İnstruktor",
     avatar: null,
     plan: "premium",
     company: "Bakı Modern Təhsil Mərkəzi",
@@ -191,7 +191,7 @@ const DashboardLayout = () => {
           id: "upload-test",
           icon: Upload,
           label: "Test Yüklə",
-          path: "/dashboard/tests/upload",
+          path: "/dashboard/upload",
           badge: null,
         },
         {
@@ -546,7 +546,9 @@ const DashboardLayout = () => {
                           >
                             <div className="flex items-center space-x-3">
                               <SubIcon className="w-4 h-4" />
-                              <span className="text-sm">{subItem.label}</span>
+                              <span className="text-sm">
+                            <Link to={subItem.path}>{subItem.label}</Link>
+                                </span>
                             </div>
                             {subItem.badge && (
                               <span

@@ -54,6 +54,7 @@ function App() {
             <Route path="analytics" element={<AnalyticsPage />} />
             <Route path="test/:testId" element={<Test />} />
 
+            <Route path="reports" element={<Reports />} />
             {/* Sinif İdarəetmə */}
             <Route path="classes" element={<Classes />} />
             <Route path="create-class" element={<CreateClass />} />
@@ -64,7 +65,7 @@ function App() {
             <Route path="student/:studentId" element={<StudentDetail />} />
 
             {/* Hesabatlar */}
-            <Route path="reports" element={<Reports />} />
+          
 
             {/* Tənzimləmələr */}
             <Route path="settings" element={<CompanySetting />} />

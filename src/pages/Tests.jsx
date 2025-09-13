@@ -434,7 +434,9 @@ const AllTestsPage = () => {
             
             <button className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-lg hover:shadow-lg transition-all">
               <Plus className="w-4 h-4" />
-              <span className="text-sm font-medium">Yeni Test</span>
+              <span className="text-sm font-medium">
+               <Link to={"/dahboard/upload"}>Yeni Test</Link> 
+                </span>
             </button>
           </div>
         </div>

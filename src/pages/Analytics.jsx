@@ -268,7 +268,7 @@ const AnalyticsPage = () => {
             <select
               value={selectedPeriod}
               onChange={(e) => setSelectedPeriod(e.target.value)}
-              className="px-4 py-2 text-w bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg text-sm"
+              className="px-4 py-2 text-white bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg text-sm"
             >
               <option value="week">Bu həftə</option>
               <option value="month">Bu ay</option>
@@ -278,7 +278,7 @@ const AnalyticsPage = () => {
             
             {/* Export Button */}
             <button className="flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg hover:shadow-md transition-all">
-              <Download className="w-4 h-4 " />
+              <Download className="w-4 h-4 " style={{color: "white"}}/>
               <span className="text-sm font-medium text-white">Export</span>
             </button>
             
